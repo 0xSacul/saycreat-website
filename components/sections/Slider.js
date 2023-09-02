@@ -1,7 +1,28 @@
-import Link from "next/link"
-
+import React from 'react'
+const TITLES = [
+    "Creative",
+    "UI/UX",
+    "Logo",
+    "Web",
+];
 
 export default function Slider() {
+    const [titleIndex, setTitleIndex] = React.useState(0);
+    const [title, setTitle] = React.useState(TITLES[0]);
+
+    React.useEffect(() => {
+        const intervalId = setInterval(() => {
+            setTitleIndex((prevTitleIndex) =>
+                (prevTitleIndex + 1) % TITLES.length
+            );
+        }, 2000);
+        return () => clearInterval(intervalId);
+    }, []);
+
+    React.useEffect(() => {
+        setTitle(TITLES[titleIndex]);
+    }, [titleIndex]);
+
     return (
         <>
             <section id="parallax" className="slider-area pt-120 fix p-relative">
@@ -11,17 +32,15 @@ export default function Slider() {
                     <div className="single-slider slider-bg d-flex align-items-center" style={{ backgroundImage: 'url("/img/slider/bg-main.png")', backgroundColor: '#fff' }}>
                         <div className="container">
                             <div className="row justify-content-center align-items-center">
-                                <div className="col-lg-7 col-md-7">
-                                    <div className="slider-content s-slider-content mt-100 p-relative">
-                                        <h5 data-animation="fadeInUp" data-delay=".3s"><span><img src="/img/bg/cube.png" alt="icon01" /></span> creative designer</h5>
-                                        <h2 data-animation="fadeInUp" data-delay=".6s">Hello, My Name's Miro Jakson</h2>
-                                        <div className="slider-btn mb-105">
-                                            <Link href="#contact" className="btn ss-btn mr-15" data-animation="fadeInUp" data-delay=".9s">Download CV </Link>
-                                        </div>
+                                <div className="">
+                                    <div className="slider-content s-slider-content p-relative">
+                                        <h3
+                                            // fade-in-out every time the title changes
+                                            key={title}
+                                            className="animated fadeInLeft"
+                                        >{title} </h3>
+                                        <h2>Designer</h2>
                                     </div>
-                                </div>
-                                <div className="col-lg-5 col-md-5 p-relative">
-                                    <div className="img-main" data-animation="fadeInRight" data-delay=".3s"> <img src="/img/slider/main.png" alt="slider-overlay" /></div>
                                 </div>
                             </div>
                         </div>
