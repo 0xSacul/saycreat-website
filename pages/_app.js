@@ -10,7 +10,6 @@ import "/public/css/bootstrap.min.css"
 import "/public/css/magnific-popup.css"
 import "/public/fontawesome/css/all.min.css"
 
-import Cursor from "@/components/elements/Cursor"
 import "/public/css/default.css"
 import "/public/css/dripicons.css"
 import "/public/css/meanmenu.css"
@@ -27,7 +26,6 @@ function MyApp({ Component, pageProps }) {
 
     }, [])
     return (<>
-        <Cursor />
         {!loading ? (
             <Component {...pageProps} />
         ) : (
