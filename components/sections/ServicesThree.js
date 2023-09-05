@@ -9,7 +9,7 @@ export default function ServicesThree() {
     }
     return (
         <>
-            <section id="services" className="services-area services-bg  p-relative fix pt-120 pb-90 " style={{ background: '#1a1d88' }}>
+            <section id="services" className="services-area services-bg  p-relative fix pt-120 pb-90 " style={{ background: '#1e2025' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6">

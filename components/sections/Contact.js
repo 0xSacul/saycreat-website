@@ -4,23 +4,19 @@ export default function Contact() {
     return (
         <>
             <section id="contact" className="contact-area after-none contact-bg pb-120 p-relative fix">
-                <div className="animations-01"><img src="/img/bg/an-img-08.png" alt="an-img-01" /></div>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 col-md-12 order-1">
                             <div className="section-title p-relative mb-50 pl-60 wow fadeInLeft  animated" data-animation="fadeInLeft" data-delay=".4s">
-                                <h5><span><img src="/img/bg/cube.png" alt="icon01" /></span> get in touch</h5>
-                                <h2>
-                                    Feel Free To Ask Anything
+                                <h5><span><img src="/img/bg/cube.png" alt="icon01" /></span> prendre contact</h5>
+                                <h2 className="pt-2">
+                                    N'hésitez pas à poser des questions
                                 </h2>
-                                <p>Above creature the rule blessed brought. Multiply they're one. Gathering own waters beast blessed.</p>
                             </div>
                             <div className="contact-info pl-60">
                                 <div className="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                    <p>251 Purple Sunset Avenue Brooklyn, BXY 92101 mewsi@example.com</p>
-                                </div>
-                                <div className="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                    <p>251 Purple Sunset Avenue Brooklyn, BXY 92101 mewsi@example.com</p>
+                                    <p className="pb-2">Tourcoing, France (pd mdr)</p>
+                                    <p>contact@saycreat.fr</p>
                                 </div>
                             </div>
                         </div>
@@ -31,19 +27,19 @@ export default function Contact() {
                                         <div className="col-lg-6">
                                             <div className="contact-field p-relative c-name mb-20">
                                                 <i className="fas fa-user" />
-                                                <input type="text" id="firstn" name="firstn" placeholder="First Name" required />
+                                                <input type="text" id="firstn" name="firstn" placeholder="Nom & Prénom" required />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="contact-field p-relative c-subject mb-20">
                                                 <i className="fas fa-envelope-open" />
-                                                <input type="text" id="email" name="email" placeholder="Eamil" required />
+                                                <input type="text" id="email" name="email" placeholder="Email" required />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="contact-field p-relative c-subject mb-20">
                                                 <i className="fas fa-book" />
-                                                <input type="text" id="subject" name="subject" placeholder="Subject" />
+                                                <input type="text" id="subject" name="subject" placeholder="Sujet" />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
@@ -51,21 +47,21 @@ export default function Contact() {
                                                 <i className="fas fa-dollar-sign" />
                                                 <select name="room" id="rm">
                                                     <option value="sports-massage"> Budget</option>
-                                                    <option value={1}>$100</option>
-                                                    <option value={2}>$200</option>
-                                                    <option value={3}>$300</option>
-                                                    <option value={4}>$400</option>
-                                                    <option value={5}>$500</option>
+                                                    <option value={1}>100€ ou moins</option>
+                                                    <option value={2}>200€</option>
+                                                    <option value={3}>300€</option>
+                                                    <option value={4}>400€</option>
+                                                    <option value={5}>500€ ou plus</option>
                                                 </select>
                                             </div>
                                         </div>
                                         <div className="col-lg-12">
                                             <div className="contact-field p-relative c-message mb-30">
                                                 <i className="fas fa-pencil" />
-                                                <textarea name="message" id="message" cols={30} rows={10} placeholder="Write comments" />
+                                                <textarea name="message" id="message" cols={30} rows={10} placeholder="Comment puis-je vous aider?" />
                                             </div>
                                             <div className="slider-btn">
-                                                <button className="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Submit Request</button>
+                                                <button className="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Envoyer</button>
                                             </div>
                                         </div>
                                     </div>

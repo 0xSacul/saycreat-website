@@ -12,13 +12,12 @@ export default function Footer1() {
                                     <div className="f-logo">
                                         <img src="/img/logo/logo.png" alt="img" />
                                     </div>
-                                    <p>“ I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce. ”</p>
+                                    <p>“ Si vous pouvez en rêver, je peux le créer. ”</p>
                                 </div>
                                 <div className="footer-social mt-10 mb-120 wow fadeInDown  animated" data-animation="fadeInDown" data-delay=".4s">
-                                    <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                    <Link href="#"><i className="fab fa-linkedin-in" /></Link>
-                                    <Link href="#"><i className="fab fa-youtube" /></Link>
                                     <Link href="#"><i className="fab fa-twitter" /></Link>
+                                    <Link href="#"><i className="fab fa-instagram" /></Link>
+                                    <Link href="#"><i className="fab fa-linkedin-in" /></Link>
                                 </div>
                             </div>
                         </div>
@@ -27,18 +26,16 @@ export default function Footer1() {
                 <div className="copyright-wrap">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6">
-                                <div className="copy-text">
-                                    Copyright © Zcube {new Date().getFullYear()} . All rights reserved.
-                                </div>
+                            <div className="copy-text">
+                                Copyright © SAYCREAT {new Date().getFullYear()}. Tout droits réservés.
                             </div>
-                            <div className="col-lg-6 text-right text-xl-right">
+                            {/* <div className="col-lg-6 text-right text-xl-right">
                                 <ul>
                                     <li><Link href="#">Careers</Link></li>
                                     <li><Link href="#">Refund Policy</Link></li>
                                     <li><Link href="#">Insights</Link></li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
