@@ -4,10 +4,10 @@ export default function Footer1() {
     return (
         <>
             <footer className="footer-bg footer-p">
-                <div className="footer-top p-relative fix">
+                <div className="footer-top">
                     <div className="container">
                         <div className="row justify-content-center align-items-center">
-                            <div className="col-xl-6 col-lg-6 col-sm-12 text-center">
+                            <div className="col-xl-6 col-lg-6 col-sm-12 mt-120 text-center">
                                 <div className="section-title p-relative mb-50 wow fadeInUp  animated" data-animation="fadeInUp" data-delay=".4s">
                                     <div className="f-logo">
                                         <img src="/img/logo/logo.png" alt="img" />

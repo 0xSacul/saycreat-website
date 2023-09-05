@@ -112,7 +112,7 @@ body {
 }
 
 .dark .s-single-services {
-  background: no-repeat;
+  background-color: #292a2f;
   border: 1px solid #1d1d1d;
   height: 100% !important;
 }
@@ -3221,7 +3221,7 @@ section:hover .section-title h2::before {
 }
 
 .services-three .s-single-services.active .services-icon {
-  background: #fff 0% 0% no-repeat padding-box;
+  background: #292a2f 0% 0% no-repeat padding-box;
   width: 90px;
   height: 90px;
 }
@@ -3262,7 +3262,7 @@ section:hover .section-title h2::before {
 }
 
 .s-single-services.active {
-  background: #fff;
+  background: #292a2f;
 }
 
 .s-single-services.active h3 a {
@@ -3284,6 +3284,14 @@ section:hover .section-title h2::before {
 
 .s-single-services .services-icon {
   width: 100%;
+}
+
+.s-single-services .services-icon h3 {
+  color: #fff;
+}
+
+.s-single-services:hover .services-icon h3 {
+  color: #000000;
 }
 
 .h-service {
@@ -6979,6 +6987,7 @@ section:hover .section-title h2::before {
 }
 
 .contact-area {
+  background-color: #0e0e10;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -13141,10 +13150,6 @@ div.single-cta:last-child {
 .footer-widget .menu-item-has-children {
   border-bottom: 1px solid #ddd;
   line-height: 40px;
-}
-
-.footer-bg .wpding .widget {
-  margin-bottom: 30px;
 }
 
 .blog-deatails-box.single .single {
