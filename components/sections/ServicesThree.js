@@ -15,7 +15,7 @@ export default function ServicesThree() {
                         <div className="col-lg-4 col-md-6">
                             <div className={`s-single-services text-center wow fadeInUp animated ${activeIndex == 1 ? "active" : ""}`} data-animation="fadeInUp" data-delay=".2s" onMouseEnter={() => handleMouseEnter(1)} >
                                 <div className="services-icon mb-30">
-                                    <img src="/img/icon/se-icon1.png" alt="img" className="pb-5" />
+                                    <img src="/img/crea-logo.png" alt="img" className="pb-5" />
                                     <h3
                                         className="custom-color-white"
                                     >
@@ -29,7 +29,7 @@ export default function ServicesThree() {
                         <div className="col-lg-4 col-md-6">
                             <div className={`s-single-services text-center wow fadeInUp animated ${activeIndex == 2 ? "active" : ""}`} data-animation="fadeInUp" data-delay=".4s" onMouseEnter={() => handleMouseEnter(2)} >
                                 <div className="services-icon mb-30">
-                                    <img src="/img/icon/se-icon2.png" alt="img" className="pb-5" />
+                                    <img src="/img/crea-pub.png" alt="img" className="pb-5" />
                                     <h3
                                         className="custom-color-white"
                                     >
@@ -43,7 +43,7 @@ export default function ServicesThree() {
                         <div className="col-lg-4 col-md-6">
                             <div className={`s-single-services text-center wow fadeInUp animated ${activeIndex == 3 ? "active" : ""}`} data-animation="fadeInUp" data-delay=".6s" onMouseEnter={() => handleMouseEnter(3)} >
                                 <div className="services-icon mb-30">
-                                    <img src="/img/icon/se-icon3.png" alt="img" className="pb-5" />
+                                    <img src="/img/identite-visuel.png" alt="img" className="pb-5" />
                                     <h3
                                         className="custom-color-white"
                                     >

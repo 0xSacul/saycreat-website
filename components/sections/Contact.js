@@ -15,7 +15,7 @@ export default function Contact() {
                             </div>
                             <div className="contact-info pl-60">
                                 <div className="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                    <p className="pb-2">Tourcoing, France (pd mdr)</p>
+                                    <p className="pb-2">Amiens, France</p>
                                     <p>contact@saycreat.fr</p>
                                 </div>
                             </div>
@@ -71,7 +71,6 @@ export default function Contact() {
                     </div>
                 </div>
             </section>
-
         </>
     )
 }
