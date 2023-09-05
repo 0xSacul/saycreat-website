@@ -114,6 +114,7 @@ body {
 .dark .s-single-services {
   background: no-repeat;
   border: 1px solid #1d1d1d;
+  height: 100% !important;
 }
 
 .dark .btn.ss-btn.white {
@@ -3251,6 +3252,13 @@ section:hover .section-title h2::before {
   transition: 0.3s;
   padding: 50px;
   border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  height: 100%;
 }
 
 .s-single-services.active {
