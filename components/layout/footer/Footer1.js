@@ -28,7 +28,6 @@ export default function Footer1() {
                         <div className="row align-items-center">
                             <div className="copy-text">
                                 Copyright © SAYCREAT {new Date().getFullYear()}. Tout droits réservés.
-                                <span style={{ color: '#fff' }}> pd mdr </span>
                             </div>
                             {/* <div className="col-lg-6 text-right text-xl-right">
                                 <ul>
