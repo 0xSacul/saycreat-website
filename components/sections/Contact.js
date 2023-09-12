@@ -8,7 +8,7 @@ export default function Contact() {
                     <div className="row">
                         <div className="col-lg-7 col-md-12 order-1">
                             <div className="section-title p-relative mb-50 pl-60 wow fadeInLeft  animated" data-animation="fadeInLeft" data-delay=".4s">
-                                <h5><span><img src="/img/bg/cube.png" alt="icon01" /></span> prendre contact</h5>
+                                <h5>prendre contact</h5>
                                 <h2 className="pt-2">
                                     N'hésitez pas à poser des questions
                                 </h2>
@@ -61,7 +61,7 @@ export default function Contact() {
                                                 <textarea name="message" id="message" cols={30} rows={10} placeholder="Comment puis-je vous aider?" />
                                             </div>
                                             <div className="slider-btn">
-                                                <button className="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Envoyer</button>
+                                                <button className="btn ss-btn white" data-animation="fadeInRight" data-delay=".8s">Envoyer</button>
                                             </div>
                                         </div>
                                     </div>

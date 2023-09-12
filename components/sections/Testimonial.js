@@ -41,7 +41,7 @@ export default function Testimonial() {
                 <div className="animations-01"><img src="/img/bg/an-img-03.png" alt="an-img-01" /></div>
                 <div className="animations-02"><img src="/img/bg/an-img-04.png" alt="contact-bg-an-01" /></div>
                 <div className="container">
-                    <div className="row">
+                    <div className="row ">
                         <div className="col-lg-12">
                             <div className="section-title text-center mb-35 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
                                 <h5>Avis Client</h5>

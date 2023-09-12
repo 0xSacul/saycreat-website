@@ -7,17 +7,12 @@ export default function Footer1() {
                 <div className="footer-top">
                     <div className="container">
                         <div className="row justify-content-center align-items-center">
-                            <div className="col-xl-6 col-lg-6 col-sm-12 mt-120 text-center">
+                            <div className="col-xl-6 col-lg-6 col-sm-12 mt-120 mb-60 text-center">
                                 <div className="section-title p-relative mb-50 wow fadeInUp  animated" data-animation="fadeInUp" data-delay=".4s">
                                     <div className="f-logo">
                                         <img src="/img/logo/logo.png" alt="img" />
                                     </div>
                                     <p>“ Si vous pouvez en rêver, je peux le créer. ”</p>
-                                </div>
-                                <div className="footer-social mt-10 mb-120 wow fadeInDown  animated" data-animation="fadeInDown" data-delay=".4s">
-                                    <Link href="#"><i className="fab fa-twitter" /></Link>
-                                    <Link href="#"><i className="fab fa-instagram" /></Link>
-                                    <Link href="#"><i className="fab fa-linkedin-in" /></Link>
                                 </div>
                             </div>
                         </div>
